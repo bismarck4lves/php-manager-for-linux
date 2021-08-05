@@ -1,8 +1,6 @@
-from tables import array
-
 
 class Tables:
-    def load(self, data: array):
+    def load(self, data):
         n = self.verifica_a_maior_combinacao(data)
         s = self.cria_delimitador(n)
         table = self.loadtables(data, n, s)
